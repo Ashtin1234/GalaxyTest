@@ -19,7 +19,9 @@ background:radial-gradient(circle,blue,black);
 }
 
 .Portal:hover img{
-    transform: scale(1.5);
+       transform: scale(2) rotate(10deg); 
+   
+    transition: ease-in-out 1.23s;
 }
 .Scrolltext{
     margin-top: 25px;
@@ -29,3 +31,4 @@ background:radial-gradient(circle,blue,black);
     overflow: scroll;
 
 }
+
